@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package newpackage;
+package UTS;
 
 import java.util.Scanner;
 import java.text.DateFormat;
@@ -49,7 +49,6 @@ public class Bank {
         System.out.println("|                 |                  |");
         System.out.println("======================================");      
 
-        System.out.print("Pilih Nomor Pesanan yang ada di Menu : ");
         menu = scan.nextInt();
         switch (menu){
             case 1:
